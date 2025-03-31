@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import "./Banner.css";
 import carousel2 from "../../assets/bannerimg/carousel-2.jpg";
 import carousel1 from "../../assets/bannerimg/carousel-1.jpg";
-import { Box, Button, useMediaQuery, useTheme } from '@mui/material';
+import { Box, Button, colors, useMediaQuery, useTheme } from '@mui/material';
 import CustomizedButtons from '../CustomComponent/CustomizedButtons';
 
 const images = [carousel1, carousel2, carousel1, carousel2];
@@ -37,7 +37,7 @@ const Banner = () => {
             />
             <div className="banner-content">
               <h1>Find The Best Startup Job That Fit You</h1>
-              <p>Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+              {/* <p>Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p> */}
               <div className="banner-buttons">
                 <CustomizedButtons/>
               </div>
